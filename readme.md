@@ -35,7 +35,7 @@ npm run setup:test-data
 
 Now to see it work, run `npm run start`, this will start the API and start running the data upgrades
 
-## The problems
+## Why is this needed?
 
 There are 2 main problems this attempts to make far easier.
 
@@ -47,7 +47,7 @@ Things like changing column data types or renaming columns are breaking changes 
 
 The other class of changes which only becomes a thing once your database becomes a certain size is fixing data problems like data corruption/encoding issues. Depending on how your database is setup doing a heap of writes at once may impact your read performance and cause an outage (it does for us).
 
-## The solution
+## How it works
 
 There are a few moving parts and [this blog post] explains them in more depth. The tl;dr is:
 
