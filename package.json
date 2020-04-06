@@ -41,7 +41,7 @@
     "dependencies": {
         "express": "^4.17.1",
         "knex": "^0.20.0",
-        "minimist": "^1.2.0",
+        "minimist": "^1.2.3",
         "node-knex-query-executor": "^2.0.1",
         "pg": "^7.12.1",
         "typescript-log": "^1.1.1"
